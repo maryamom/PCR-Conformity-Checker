@@ -3,7 +3,7 @@
 
 ## Description
 
-Ce projet est un outil automatisé de vérification de conformité des lignes PCR (Plan de Contrôle de Référence) par rapport à des spécifications techniques.  
+Ce projet est un outil pour automatiser la vérification de conformité des lignes PCR (Plan de Contrôle de Référence) par rapport à des spécifications techniques.  
 Il permet de détecter et valider les préfixes des lignes PCR, d'analyser la conformité des champs dans chaque ligne, en s’appuyant sur des modèles de langage (LLM) pour une détection intelligente.
 L’interface utilisateur est réalisée avec **Streamlit**, tandis que la logique métier et les interactions avec les modèles LLM sont contenues dans un module backend dédié.
 (voir le rapport pour plus de détails)
@@ -13,7 +13,7 @@ L’interface utilisateur est réalisée avec **Streamlit**, tandis que la logiq
 ## Fonctionnalités principales
 
 - Extraction des blocs de spécifications depuis un fichier `.docx` (paragraphe + tableau)  
-- Détection automatique des préfixes des blocs à l’aide de modèles LLM (meta-llama, Mistral, etc.) via TogetherAI  
+- Détection automatique des préfixes des blocs à l’aide de modèles LLM (meta-llama, Mistral, etc.) via TogetherAI  ( il suffitit juste de créer un compte pour avoir ta clé api)
 - Vérification de la conformité des lignes PCR en fonction des préfixes détectés  
 - Analyse détaillée des champs : présence, format, contraintes, ordre  
 - Suggestions de corrections en cas de non-conformité  
@@ -94,26 +94,26 @@ streamlit run interface.py
 * Le système utilise actuellement TogetherAI avec une limite de 6000 tokens/minute et un délai de 3 secondes entre les appels, ce qui peut ralentir le traitement
 * Les réponses des modèles LLM peuvent parfois être incomplètes ou incorrectes, nécessitant une supervision ou une future migration vers des API payantes comme Gemini pour plus de robustesse
 * Possibilité d’ajouter une interface d’entrée manuelle du préfixe si la détection automatique échoue
-* 
+  
 ## Diagramme de Flux :
 
-<img src="https://github.com/user-attachments/assets/ab3cb0b1-e254-4b8a-a5f1-9d778426c767" alt="Diagramme de flux" style="max-width:100%; height:auto;" />
+<img src="https://github.com/user-attachments/assets/ab3cb0b1-e254-4b8a-a5f1-9d778426c767" alt="Diagramme de flux" style="max-width:60%; height:auto;" />
 
 ---
 
 ## L'application :
 
-<img src="https://github.com/user-attachments/assets/f749baa1-cb1c-407d-b2e1-e3bedd2e88bd" alt="App Screenshot 1" style="max-width:100%; height:auto;" />
+<img src="https://github.com/user-attachments/assets/f749baa1-cb1c-407d-b2e1-e3bedd2e88bd" alt="App Screenshot 1" style="max-width:60%; height:auto;" />
 <br>
 <img src="https://github.com/user-attachments/assets/80d8b979-433c-4062-8924-38280eb983a6" alt="App Screenshot 2" style="max-width:100%; height:auto;" />
 <br>
-<img src="https://github.com/user-attachments/assets/b2da9a5e-4a96-4c84-a463-1da0af24f561" alt="App Screenshot 3" style="max-width:100%; height:auto;" />
+<img src="https://github.com/user-attachments/assets/b2da9a5e-4a96-4c84-a463-1da0af24f561" alt="App Screenshot 3" style="max-width:60%; height:auto;" />
 <br>
-<img src="https://github.com/user-attachments/assets/f2eed875-cc2d-4c39-ad27-7e4a390fbf61" alt="App Screenshot 4" style="max-width:100%; height:auto;" />
+<img src="https://github.com/user-attachments/assets/f2eed875-cc2d-4c39-ad27-7e4a390fbf61" alt="App Screenshot 4" style="max-width:60%; height:auto;" />
 <br>
-<img src="https://github.com/user-attachments/assets/844c8cd2-cb12-480b-b783-68c54e097203" alt="App Screenshot 5" style="max-width:100%; height:auto;" />
+<img src="https://github.com/user-attachments/assets/844c8cd2-cb12-480b-b783-68c54e097203" alt="App Screenshot 5" style="max-width:60%; height:auto;" />
 <br>
-<img src="https://github.com/user-attachments/assets/bad2e3fe-4235-4f24-9bdf-280f590121d4" alt="App Screenshot 6" style="max-width:100%; height:auto;" />
+<img src="https://github.com/user-attachments/assets/bad2e3fe-4235-4f24-9bdf-280f590121d4" alt="App Screenshot 6" style="max-width:60%; height:auto;" />
 
 ## Auteur
 
