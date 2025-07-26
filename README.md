@@ -97,7 +97,7 @@ streamlit run interface.py
   
 ## Diagramme de Flux :
 
-<img src="https://github.com/user-attachments/assets/ab3cb0b1-e254-4b8a-a5f1-9d778426c767" alt="Diagramme de flux" style="max-width:60%; height:auto;" />
+<img src="https://github.com/user-attachments/assets/ab3cb0b1-e254-4b8a-a5f1-9d778426c767" alt="Diagramme de flux" style="max-width:10%; height:auto;" />
 
 ---
 
