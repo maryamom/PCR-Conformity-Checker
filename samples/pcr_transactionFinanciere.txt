@@ -1,0 +1,13 @@
+
+TRX0000000012025-07-161500.50Crédit     
+CLT000001Alice Dupontalice.dupont@example.com     +216 98 765 432
+ABCA12345678901234567890123412345
+CLT000002Mohamed Salahm.salah@mail.tn    
+ABCH98765432109876543210987654321
+TRX000000032025-07-16089.99Crédit Validé 
+CLT000003Fatma Ben Alifatma.benali@domain.com 
+
+
+
+
+
