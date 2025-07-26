@@ -95,21 +95,25 @@ streamlit run interface.py
 * Les réponses des modèles LLM peuvent parfois être incomplètes ou incorrectes, nécessitant une supervision ou une future migration vers des API payantes comme Gemini pour plus de robustesse
 * Possibilité d’ajouter une interface d’entrée manuelle du préfixe si la détection automatique échoue
 * 
-## Diagramme de Flux:
-<img width="1695" height="3840" alt="Untitled diagram _ Mermaid Chart-2025-07-26-161718" src="https://github.com/user-attachments/assets/ab3cb0b1-e254-4b8a-a5f1-9d778426c767" />
+## Diagramme de Flux :
+
+<img src="https://github.com/user-attachments/assets/ab3cb0b1-e254-4b8a-a5f1-9d778426c767" alt="Diagramme de flux" style="max-width:100%; height:auto;" />
 
 ---
-## L'application : 
 
-<img width="1920" height="1020" alt="1" src="https://github.com/user-attachments/assets/f749baa1-cb1c-407d-b2e1-e3bedd2e88bd" />
-<img width="1920" height="1020" alt="2" src="https://github.com/user-attachments/assets/80d8b979-433c-4062-8924-38280eb983a6" />
-<img width="1920" height="1020" alt="3" src="https://github.com/user-attachments/assets/b2da9a5e-4a96-4c84-a463-1da0af24f561" />
-<img width="1920" height="1020" alt="4" src="https://github.com/user-attachments/assets/f2eed875-cc2d-4c39-ad27-7e4a390fbf61" />
-<img width="1920" height="1020" alt="5" src="https://github.com/user-attachments/assets/844c8cd2-cb12-480b-b783-68c54e097203" />
-<img width="1920" height="1020" alt="6" src="https://github.com/user-attachments/assets/bad2e3fe-4235-4f24-9bdf-280f590121d4" />
+## L'application :
 
-
-
+<img src="https://github.com/user-attachments/assets/f749baa1-cb1c-407d-b2e1-e3bedd2e88bd" alt="App Screenshot 1" style="max-width:100%; height:auto;" />
+<br>
+<img src="https://github.com/user-attachments/assets/80d8b979-433c-4062-8924-38280eb983a6" alt="App Screenshot 2" style="max-width:100%; height:auto;" />
+<br>
+<img src="https://github.com/user-attachments/assets/b2da9a5e-4a96-4c84-a463-1da0af24f561" alt="App Screenshot 3" style="max-width:100%; height:auto;" />
+<br>
+<img src="https://github.com/user-attachments/assets/f2eed875-cc2d-4c39-ad27-7e4a390fbf61" alt="App Screenshot 4" style="max-width:100%; height:auto;" />
+<br>
+<img src="https://github.com/user-attachments/assets/844c8cd2-cb12-480b-b783-68c54e097203" alt="App Screenshot 5" style="max-width:100%; height:auto;" />
+<br>
+<img src="https://github.com/user-attachments/assets/bad2e3fe-4235-4f24-9bdf-280f590121d4" alt="App Screenshot 6" style="max-width:100%; height:auto;" />
 
 ## Auteur
 
@@ -121,8 +125,4 @@ streamlit run interface.py
 
 
 
----
-
-Si tu veux, je peux aussi t’aider à créer un fichier `LICENSE` et à préparer la structure GitHub complète.  
-Veux-tu ?
 ```
