@@ -13,7 +13,8 @@ L’interface utilisateur est réalisée avec **Streamlit**, tandis que la logiq
 ## Fonctionnalités principales
 
 - Extraction des blocs de spécifications depuis un fichier `.docx` (paragraphe + tableau)  
-- Détection automatique des préfixes des blocs à l’aide de modèles LLM (meta-llama, Mistral, etc.) via TogetherAI  ( il suffitit juste de créer un compte pour avoir ta clé api)
+- Détection automatique des préfixes des blocs à l’aide de modèles LLM (meta-llama, Mistral, etc.) via TogetherAI
+  ( il suffitit juste de créer un compte pour avoir ta clé api)
 - Vérification de la conformité des lignes PCR en fonction des préfixes détectés  
 - Analyse détaillée des champs : présence, format, contraintes, ordre  
 - Suggestions de corrections en cas de non-conformité  
